@@ -1,0 +1,30 @@
+{
+  "name": "chrome-cli-stream",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "chrome-cli-repl": "bin/cmd.js"
+  },
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/youpy/chrome-cli-stream.git"
+  },
+  "keywords": [
+    "chrome",
+    "stream"
+  ],
+  "author": "youpy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youpy/chrome-cli-stream/issues"
+  },
+  "homepage": "https://github.com/youpy/chrome-cli-stream",
+  "devDependencies": {},
+  "dependencies": {
+    "through2": "^0.4.1"
+  }
+}
