@@ -9,6 +9,7 @@ module.exports = function() {
 
     if(chunk.toString() === "\n") {
       self.push(chunk);
+      self.emit('end');
       callback();
     } else {
       var code = chunk.toString().replace(/\n$/, ''),
@@ -27,9 +28,9 @@ module.exports = function() {
       });
 
       childproc.stdout.on('end', function(chunk) {
+        self.emit('end');
         callback();
       });
     }
   });
 };
-

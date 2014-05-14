@@ -12,7 +12,7 @@ var rl = readline.createInterface({
   output: process.stdout
 });
 
-chrome.on('data', function(chunk) {
+chrome.on('end', function(chunk) {
   rl.prompt();
 });
 
