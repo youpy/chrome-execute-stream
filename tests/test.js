@@ -1,9 +1,9 @@
 var assert = require('assert'),
     chromeStream = require('..');
 
-describe('chrome-cli-stream', function() {
-  describe('evaluation', function() {
-    it('evaluates javascript', function(done) {
+describe('chrome-execute-stream', function() {
+  describe('execution', function() {
+    it('executes javascript', function(done) {
       var stream = chromeStream();
 
       stream.once('data', function(chunk) {
@@ -91,3 +91,4 @@ describe('chrome-cli-stream', function() {
     });
   });
 });
+
