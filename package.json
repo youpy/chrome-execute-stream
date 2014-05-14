@@ -1,17 +1,17 @@
 {
-  "name": "chrome-cli-stream",
+  "name": "chrome-execute-stream",
   "version": "0.0.1",
-  "description": "",
+  "description": "A read/write stream to execute Javascript on Google Chrome",
   "main": "index.js",
   "bin": {
-    "chrome-cli-repl": "bin/cmd.js"
+    "chrome-execute-stream-repl": "bin/cmd.js"
   },
   "scripts": {
     "test": "mocha tests/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/youpy/chrome-cli-stream.git"
+    "url": "git://github.com/youpy/chrome-execute-stream.git"
   },
   "keywords": [
     "chrome",
@@ -20,9 +20,9 @@
   "author": "youpy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/youpy/chrome-cli-stream/issues"
+    "url": "https://github.com/youpy/chrome-execute-stream/issues"
   },
-  "homepage": "https://github.com/youpy/chrome-cli-stream",
+  "homepage": "https://github.com/youpy/chrome-execute-stream",
   "devDependencies": {},
   "dependencies": {
     "through2": "^0.4.1"
